@@ -1,0 +1,21 @@
+{
+  "name": "okami-website",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "wcastand <wcastand@gmail.com> (https://github.com/wcastand)",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "dev": "next",
+    "build": "next build"
+  },
+  "dependencies": {
+    "glamor": "^2.20.40",
+    "glamorous": "^4.9.1",
+    "next": "^3.2.2",
+    "okami": "^0.1.5",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-live": "^1.7.1"
+  }
+}
