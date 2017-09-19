@@ -1,11 +1,6 @@
 import Document, {Head, Main, NextScript} from 'next/document'
 import {renderStatic} from 'glamor/server'
 
-const css = `
-* {box-sizing: border-box;}
-body{ font-family:'Roboto', sans-serif; font-size: 16px; margin: 0; padding: 0; background-color: #F1F1F1;}
-`
-
 export default class MyDocument extends Document {
   static async getInitialProps({renderPage}) {
     const page = renderPage()
@@ -26,10 +21,9 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <title>Okami - React Primitives for building Calendars.</title>
-          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
           <link rel="stylesheet" href="/static/app.css" />
-          <style>{css}</style>
           <style dangerouslySetInnerHTML={{__html: this.props.css}} />
         </Head>
         <body>
