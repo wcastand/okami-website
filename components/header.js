@@ -6,7 +6,7 @@ import Link from './link'
 import Title from './title'
 
 const Header = () => (
-  <Div>
+  <Div width={560}>
     <NextLink href="/">
       <A cursor="pointer">
         <Title />
