@@ -21,7 +21,7 @@ const Header = () => (
       justifyContent="space-between">
       <Link href="/" text="Home" />
       <Link href="/playground" text="Playground" />
-      <Link external href="/storybook" text="Storybook" />
+      <Link external href="https://wcastand.github.io/okami" text="Storybook" />
       <Link external href="https://github.com/wcastand/okami" text="Github" />
     </Div>
   </Div>
